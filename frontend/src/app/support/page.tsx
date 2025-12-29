@@ -27,7 +27,7 @@ export default function SupportPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-300">
-                Find answers to frequently asked questions about SwapIt, trading, fees, and more.
+                Find answers to frequently asked questions about Sapex, trading, fees, and more.
               </p>
             </CardContent>
           </Card>
@@ -77,10 +77,10 @@ export default function SupportPage() {
               For immediate assistance, email us at:
             </p>
             <a
-              href="mailto:support@swapit.com"
+              href="mailto:support@sapex.app"
               className="text-[#3B82F6] hover:text-[#60A5FA] font-medium transition-colors"
             >
-              support@swapit.com
+              support@sapex.app
             </a>
             <p className="text-gray-400 text-sm mt-3">
               Response time: Within 24 hours

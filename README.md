@@ -1,6 +1,6 @@
-# Web3 Bank - Crypto Trading Platform
+# Sapex - Crypto Trading Platform
 
-A complete web3 bank platform where users can buy and sell cryptocurrencies with a 0.1% platform fee - the lowest in the market!
+A complete crypto trading platform where users can buy and sell cryptocurrencies with a 0.1% platform fee - the lowest in the market!
 
 ## 🚀 Features
 
@@ -124,20 +124,20 @@ npm run deploy -- --network sepolia
 
 ## 💰 Fee Comparison
 
-| Platform      | Fee       | Savings vs Web3 Bank |
-| ------------- | --------- | -------------------- |
-| **Web3 Bank** | **0.1%**  | **Best rate!**       |
-| Uniswap       | 0.3%      | 3x higher            |
-| SushiSwap     | 0.3%      | 3x higher            |
-| PancakeSwap   | 0.25%     | 2.5x higher          |
-| Curve         | 0.04-0.4% | Varies by pool       |
-| Balancer      | 0.1-1%    | Up to 10x higher     |
+| Platform    | Fee       | Savings vs Sapex |
+| ----------- | --------- | ---------------- |
+| **Sapex**   | **0.1%**  | **Best rate!**   |
+| Uniswap     | 0.3%      | 3x higher        |
+| SushiSwap   | 0.3%      | 3x higher        |
+| PancakeSwap | 0.25%     | 2.5x higher      |
+| Curve       | 0.04-0.4% | Varies by pool   |
+| Balancer    | 0.1-1%    | Up to 10x higher |
 
-**Web3 Bank offers the lowest fees in the market!**
+**Sapex offers the lowest fees in the market!**
 
 ## smart Contract Details
 
-The `Web3Bank.sol` contract:
+The `Sapex.sol` contract:
 
 - **Platform Fee**: 0.1% (10 basis points) on all transactions - Lower than Uniswap (0.3%), SushiSwap (0.3%), PancakeSwap (0.25%), and all major DEX platforms
 - **Functions**:

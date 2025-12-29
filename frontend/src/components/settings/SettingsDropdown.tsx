@@ -39,7 +39,7 @@ export function SettingsDropdown({ slippage, onSlippageChange, trigger }: Settin
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('swapit-settings')
+      const saved = localStorage.getItem('sapex-settings')
       if (saved) {
         try {
           const parsed = JSON.parse(saved)
@@ -106,7 +106,7 @@ export function SettingsDropdown({ slippage, onSlippageChange, trigger }: Settin
 
   const saveSettings = (newSettings: Settings) => {
     if (typeof window !== 'undefined') {
-      localStorage.setItem('swapit-settings', JSON.stringify(newSettings))
+      localStorage.setItem('sapex-settings', JSON.stringify(newSettings))
     }
   }
 

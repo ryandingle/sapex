@@ -30,7 +30,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold text-white">SwapIt</h3>
+            <h3 className="text-xl font-semibold text-white">Sapex</h3>
             <p className="text-sm text-gray-400 leading-relaxed">
               The most affordable crypto trading platform with 0.08% platform fee. Trade anytime, anywhere.
             </p>
@@ -54,7 +54,7 @@ export function Footer() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="mailto:support@swapit.com"
+                href="mailto:support@sapex.app"
                 className="text-gray-400 hover:text-[#3B82F6] transition-colors"
                 aria-label="Email"
               >
@@ -118,7 +118,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800/50 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            © {currentYear} SwapIt. All rights reserved.
+            © {currentYear} Sapex. All rights reserved.
           </p>
           <p className="text-xs text-gray-500">
             Platform fee: 0.08% - Lowest in the market

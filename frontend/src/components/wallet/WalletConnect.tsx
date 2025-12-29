@@ -16,7 +16,7 @@ export function WalletConnect() {
       setHasMetaMask(!!window.ethereum)
       
       // Load slippage from localStorage
-      const saved = localStorage.getItem('swapit-settings')
+      const saved = localStorage.getItem('sapex-settings')
       if (saved) {
         try {
           const parsed = JSON.parse(saved)

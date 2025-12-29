@@ -20,7 +20,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">1. Acceptance of Terms</h2>
               <p className="leading-relaxed">
-                By accessing and using SwapIt, you accept and agree to be bound by the terms and provision of this agreement. 
+                By accessing and using Sapex, you accept and agree to be bound by the terms and provision of this agreement. 
                 If you do not agree to abide by the above, please do not use this service.
               </p>
             </section>
@@ -28,7 +28,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">2. Platform Services</h2>
               <p className="leading-relaxed mb-3">
-                SwapIt provides a decentralized cryptocurrency trading platform that allows users to swap tokens across 
+                Sapex provides a decentralized cryptocurrency trading platform that allows users to swap tokens across 
                 multiple blockchain networks. Our platform charges a 0.08% fee on all transactions.
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
@@ -40,7 +40,7 @@ export default function TermsPage() {
 
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">3. User Responsibilities</h2>
-              <p className="leading-relaxed mb-3">As a user of SwapIt, you agree to:</p>
+              <p className="leading-relaxed mb-3">As a user of Sapex, you agree to:</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Use the platform only for lawful purposes</li>
                 <li>Not engage in any fraudulent or malicious activities</li>
@@ -53,7 +53,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">4. Platform Fees</h2>
               <p className="leading-relaxed">
-                SwapIt charges a platform fee of 0.08% on all swap transactions. This fee is deducted from the input amount 
+                Sapex charges a platform fee of 0.08% on all swap transactions. This fee is deducted from the input amount 
                 before the swap is executed. Additional network gas fees apply and are paid directly to the blockchain network.
               </p>
             </section>
@@ -61,12 +61,12 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">5. Risks and Disclaimers</h2>
               <p className="leading-relaxed mb-3">
-                Cryptocurrency trading involves substantial risk. By using SwapIt, you acknowledge and agree that:
+                Cryptocurrency trading involves substantial risk. By using Sapex, you acknowledge and agree that:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Cryptocurrency prices are highly volatile</li>
                 <li>You may lose all or part of your investment</li>
-                <li>SwapIt is not responsible for any losses incurred</li>
+                <li>Sapex is not responsible for any losses incurred</li>
                 <li>Smart contracts are subject to potential bugs or vulnerabilities</li>
                 <li>Network congestion may affect transaction times and costs</li>
               </ul>
@@ -75,7 +75,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">6. Limitation of Liability</h2>
               <p className="leading-relaxed">
-                SwapIt, its operators, and affiliates shall not be liable for any indirect, incidental, special, consequential, 
+                Sapex, its operators, and affiliates shall not be liable for any indirect, incidental, special, consequential, 
                 or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, 
                 resulting from your use of the platform.
               </p>
@@ -92,7 +92,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">8. Contact Information</h2>
               <p className="leading-relaxed">
-                If you have any questions about these Terms of Service, please contact us at support@swapit.com.
+                If you have any questions about these Terms of Service, please contact us at support@sapex.app.
               </p>
             </section>
           </CardContent>

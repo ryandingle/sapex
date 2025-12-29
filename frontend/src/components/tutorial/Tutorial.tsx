@@ -16,14 +16,14 @@ interface TutorialStep {
 const TUTORIAL_STEPS: TutorialStep[] = [
   {
     id: 'welcome',
-    title: 'Welcome to SwapIt! 🎉',
-    description: 'SwapIt is a decentralized exchange with the lowest fees (0.08%) in the market. Let\'s take a quick tour of the platform.',
+    title: 'Welcome to Sapex! 🎉',
+    description: 'Sapex is a decentralized exchange with the lowest fees (0.08%) in the market. Let\'s take a quick tour of the platform.',
     position: 'bottom',
   },
   {
     id: 'network',
     title: 'Select Networks',
-    description: 'Click here to choose your source and destination networks. SwapIt supports Ethereum, Arbitrum, Ronin, and more!',
+    description: 'Click here to choose your source and destination networks. Sapex supports Ethereum, Arbitrum, Ronin, and more!',
     target: '[data-tutorial="network-indicator"]',
     position: 'bottom',
   },
@@ -65,12 +65,12 @@ const TUTORIAL_STEPS: TutorialStep[] = [
   {
     id: 'complete',
     title: 'You\'re All Set! 🚀',
-    description: 'You now know how to use SwapIt! Start trading with the lowest fees in the market. Happy swapping!',
+    description: 'You now know how to use Sapex! Start trading with the lowest fees in the market. Happy swapping!',
     position: 'bottom',
   },
 ]
 
-const TUTORIAL_STORAGE_KEY = 'swapit-tutorial-completed'
+const TUTORIAL_STORAGE_KEY = 'sapex-tutorial-completed'
 
 export function Tutorial() {
   const [currentStep, setCurrentStep] = useState(0)

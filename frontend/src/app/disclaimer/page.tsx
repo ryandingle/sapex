@@ -11,7 +11,7 @@ export default function DisclaimerPage() {
           Disclaimer
         </h1>
         <p className="text-gray-400 text-sm sm:text-base">
-          Important information about using SwapIt
+          Important information about using Sapex
         </p>
       </div>
 
@@ -31,7 +31,7 @@ export default function DisclaimerPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">1. No Financial Advice</h2>
               <p className="leading-relaxed">
-                SwapIt does not provide financial, investment, or trading advice. All information on our platform is for 
+                Sapex does not provide financial, investment, or trading advice. All information on our platform is for 
                 informational purposes only. You should conduct your own research and consult with a qualified financial 
                 advisor before making any trading decisions.
               </p>
@@ -68,14 +68,14 @@ export default function DisclaimerPage() {
               <h2 className="text-xl font-semibold text-white mb-3">4. Regulatory Risks</h2>
               <p className="leading-relaxed">
                 Cryptocurrency regulations vary by jurisdiction and may change. You are responsible for ensuring your use 
-                of SwapIt complies with all applicable laws and regulations in your jurisdiction.
+                of Sapex complies with all applicable laws and regulations in your jurisdiction.
               </p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">5. No Guarantees</h2>
               <p className="leading-relaxed">
-                SwapIt makes no guarantees regarding:
+                Sapex makes no guarantees regarding:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
                 <li>The accuracy of price information or exchange rates</li>
@@ -102,7 +102,7 @@ export default function DisclaimerPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">7. Platform Availability</h2>
               <p className="leading-relaxed">
-                SwapIt is provided "as is" without warranties of any kind. We do not guarantee uninterrupted or error-free 
+                Sapex is provided "as is" without warranties of any kind. We do not guarantee uninterrupted or error-free 
                 service. The platform may be unavailable due to maintenance, technical issues, or other reasons beyond our control.
               </p>
             </section>
@@ -110,7 +110,7 @@ export default function DisclaimerPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">8. Acceptance</h2>
               <p className="leading-relaxed">
-                By using SwapIt, you acknowledge that you have read, understood, and agree to this disclaimer. You understand 
+                By using Sapex, you acknowledge that you have read, understood, and agree to this disclaimer. You understand 
                 the risks involved and accept full responsibility for your trading decisions and any resulting losses.
               </p>
             </section>

@@ -27,7 +27,7 @@ export default function DocsPage() {
             <section>
               <h3 className="text-lg font-semibold text-white mb-2">Smart Contract</h3>
               <p className="leading-relaxed mb-3">
-                SwapIt uses a smart contract deployed on multiple blockchain networks. The contract handles token swaps 
+                Sapex uses a smart contract deployed on multiple blockchain networks. The contract handles token swaps 
                 and collects platform fees.
               </p>
               <ul className="list-disc list-inside space-y-1 ml-4">

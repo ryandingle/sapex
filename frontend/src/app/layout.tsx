@@ -9,7 +9,7 @@ import { TokenBubbles } from '@/components/ui/TokenBubbles'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SwapIt - Crypto Trading Platform',
+  title: 'Sapex - Crypto Trading Platform',
   description: 'Buy and sell cryptocurrencies with 0.08% platform fee - Lowest fees in the market!',
 }
 

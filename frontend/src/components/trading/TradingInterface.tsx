@@ -46,7 +46,7 @@ export function TradingInterface({ initialToken }: TradingInterfaceProps = {}) {
   // Load slippage from localStorage on mount
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('swapit-settings')
+      const saved = localStorage.getItem('sapex-settings')
       if (saved) {
         try {
           const parsed = JSON.parse(saved)

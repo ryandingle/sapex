@@ -35,7 +35,7 @@ export function PriceAlerts() {
   // Load alerts from localStorage and check notification permission
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('swapit-price-alerts')
+      const saved = localStorage.getItem('sapex-price-alerts')
       if (saved) {
         try {
           setAlerts(JSON.parse(saved))
@@ -53,7 +53,7 @@ export function PriceAlerts() {
 
   const saveAlerts = useCallback((newAlerts: PriceAlert[]) => {
     if (typeof window !== 'undefined') {
-      localStorage.setItem('swapit-price-alerts', JSON.stringify(newAlerts))
+      localStorage.setItem('sapex-price-alerts', JSON.stringify(newAlerts))
     }
   }, [])
 

@@ -1,10 +1,10 @@
-# Web3Bank Smart Contracts
+# Sapex Smart Contracts
 
-Smart contracts for the Web3 Bank platform with 0.1% platform fee on all transactions - the lowest in the market!
+Smart contracts for the Sapex platform with 0.1% platform fee on all transactions - the lowest in the market!
 
 ## Contracts
 
-- **Web3Bank.sol**: Main contract handling swaps with platform fee collection
+- **Sapex.sol**: Main contract handling swaps with platform fee collection
 
 ## Setup
 

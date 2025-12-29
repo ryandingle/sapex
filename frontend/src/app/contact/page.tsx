@@ -28,10 +28,10 @@ export default function ContactPage() {
               Send us an email and we'll get back to you within 24 hours.
             </p>
             <a
-              href="mailto:support@swapit.com"
+              href="mailto:support@sapex.app"
               className="text-[#3B82F6] hover:text-[#60A5FA] font-medium transition-colors"
             >
-              support@swapit.com
+              support@sapex.app
             </a>
           </CardContent>
         </Card>
@@ -45,13 +45,13 @@ export default function ContactPage() {
           </CardHeader>
           <CardContent>
             <p className="text-gray-300 mb-4">
-              For general questions about SwapIt, partnerships, or media inquiries.
+              For general questions about Sapex, partnerships, or media inquiries.
             </p>
             <a
-              href="mailto:info@swapit.com"
+              href="mailto:info@sapex.app"
               className="text-[#3B82F6] hover:text-[#60A5FA] font-medium transition-colors"
             >
-              info@swapit.com
+              info@sapex.app
             </a>
           </CardContent>
         </Card>
@@ -68,10 +68,10 @@ export default function ContactPage() {
               Need help with transactions, wallet connections, or technical issues?
             </p>
             <a
-              href="mailto:tech@swapit.com"
+              href="mailto:tech@sapex.app"
               className="text-[#3B82F6] hover:text-[#60A5FA] font-medium transition-colors"
             >
-              tech@swapit.com
+              tech@sapex.app
             </a>
           </CardContent>
         </Card>

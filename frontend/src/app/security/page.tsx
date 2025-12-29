@@ -41,7 +41,7 @@ export default function SecurityPage() {
                 <h2 className="text-xl font-semibold text-white">Decentralized Architecture</h2>
               </div>
               <p className="leading-relaxed">
-                SwapIt is a fully decentralized platform. We do not hold or have access to your funds. All transactions 
+                Sapex is a fully decentralized platform. We do not hold or have access to your funds. All transactions 
                 are executed directly on the blockchain through your connected wallet. Your private keys never leave your 
                 device.
               </p>
@@ -66,7 +66,7 @@ export default function SecurityPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">Transaction Security</h2>
               <p className="leading-relaxed mb-3">
-                All transactions on SwapIt include:
+                All transactions on Sapex include:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Slippage protection to prevent unfavorable trades</li>
@@ -79,7 +79,7 @@ export default function SecurityPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">Reporting Security Issues</h2>
               <p className="leading-relaxed">
-                If you discover a security vulnerability, please report it responsibly to security@swapit.com. 
+                If you discover a security vulnerability, please report it responsibly to security@sapex.app. 
                 We take security seriously and will investigate all reports promptly.
               </p>
             </section>

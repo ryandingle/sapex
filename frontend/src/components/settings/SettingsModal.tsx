@@ -40,7 +40,7 @@ export function SettingsModal({ open, onOpenChange, slippage, onSlippageChange }
   // Load settings from localStorage on mount
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('swapit-settings')
+      const saved = localStorage.getItem('sapex-settings')
       if (saved) {
         try {
           const parsed = JSON.parse(saved)
@@ -109,7 +109,7 @@ export function SettingsModal({ open, onOpenChange, slippage, onSlippageChange }
 
   const saveSettings = (newSettings: Settings) => {
     if (typeof window !== 'undefined') {
-      localStorage.setItem('swapit-settings', JSON.stringify(newSettings))
+      localStorage.setItem('sapex-settings', JSON.stringify(newSettings))
     }
   }
 

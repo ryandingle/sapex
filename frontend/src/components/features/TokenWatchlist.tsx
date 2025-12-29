@@ -17,7 +17,7 @@ export function TokenWatchlist() {
   // Load watchlist from localStorage
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('swapit-watchlist')
+      const saved = localStorage.getItem('sapex-watchlist')
       if (saved) {
         try {
           setWatchlist(JSON.parse(saved))
@@ -30,7 +30,7 @@ export function TokenWatchlist() {
 
   const saveWatchlist = (newWatchlist: string[]) => {
     if (typeof window !== 'undefined') {
-      localStorage.setItem('swapit-watchlist', JSON.stringify(newWatchlist))
+      localStorage.setItem('sapex-watchlist', JSON.stringify(newWatchlist))
       setWatchlist(newWatchlist)
     }
   }

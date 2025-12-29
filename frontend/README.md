@@ -1,6 +1,6 @@
-# Web3 Bank Frontend
+# Sapex Frontend
 
-Next.js frontend application for the Web3 Bank crypto trading platform.
+Next.js frontend application for the Sapex crypto trading platform.
 
 ## Features
 

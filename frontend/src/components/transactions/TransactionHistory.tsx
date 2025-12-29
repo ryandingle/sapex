@@ -109,7 +109,7 @@ export function TransactionHistory({
     const url = URL.createObjectURL(blob)
     link.setAttribute('href', url)
     const dateRange = dateFilter === 'all' ? 'all' : dateFilter === 'custom' ? `${startDate}-${endDate}` : dateFilter
-    link.setAttribute('download', `swapit-transactions-${dateRange}-${new Date().toISOString().split('T')[0]}.csv`)
+    link.setAttribute('download', `sapex-transactions-${dateRange}-${new Date().toISOString().split('T')[0]}.csv`)
     link.style.visibility = 'hidden'
     document.body.appendChild(link)
     link.click()
@@ -151,7 +151,7 @@ export function TransactionHistory({
     const url = URL.createObjectURL(blob)
     link.setAttribute('href', url)
     const dateRange = dateFilter === 'all' ? 'all' : dateFilter === 'custom' ? `${startDate}-${endDate}` : dateFilter
-    link.setAttribute('download', `swapit-transactions-${dateRange}-${new Date().toISOString().split('T')[0]}.json`)
+    link.setAttribute('download', `sapex-transactions-${dateRange}-${new Date().toISOString().split('T')[0]}.json`)
     link.style.visibility = 'hidden'
     document.body.appendChild(link)
     link.click()

@@ -20,7 +20,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">1. Introduction</h2>
               <p className="leading-relaxed">
-                SwapIt ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we 
+                Sapex ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we 
                 collect, use, and safeguard your information when you use our decentralized cryptocurrency trading platform.
               </p>
             </section>
@@ -51,7 +51,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">4. Decentralized Nature</h2>
               <p className="leading-relaxed">
-                SwapIt is a decentralized platform. Your wallet connection is handled locally by your browser. We do not 
+                Sapex is a decentralized platform. Your wallet connection is handled locally by your browser. We do not 
                 store your private keys, seed phrases, or have access to your wallet. All transactions are executed directly 
                 through your connected wallet on the blockchain.
               </p>
@@ -120,7 +120,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">11. Contact Us</h2>
               <p className="leading-relaxed">
-                For questions about this Privacy Policy, contact us at support@swapit.com.
+                For questions about this Privacy Policy, contact us at support@sapex.app.
               </p>
             </section>
           </CardContent>

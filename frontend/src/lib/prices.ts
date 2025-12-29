@@ -10,8 +10,8 @@ export async function getETHPriceInUSD(): Promise<number> {
   try {
     // Try to get from cache first (cache for 1 minute)
     if (typeof window !== 'undefined') {
-      const cacheKey = 'swapit-eth-price-cache'
-      const cacheTimeKey = 'swapit-eth-price-cache-time'
+      const cacheKey = 'sapex-eth-price-cache'
+      const cacheTimeKey = 'sapex-eth-price-cache-time'
       const cachedPrice = localStorage.getItem(cacheKey)
       const cachedTime = localStorage.getItem(cacheTimeKey)
       
@@ -32,8 +32,8 @@ export async function getETHPriceInUSD(): Promise<number> {
       
       // Cache the price
       if (typeof window !== 'undefined') {
-        localStorage.setItem('swapit-eth-price-cache', price.toString())
-        localStorage.setItem('swapit-eth-price-cache-time', Date.now().toString())
+        localStorage.setItem('sapex-eth-price-cache', price.toString())
+        localStorage.setItem('sapex-eth-price-cache-time', Date.now().toString())
       }
       
       return price
