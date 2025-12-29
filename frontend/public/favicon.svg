@@ -1,0 +1,31 @@
+<svg width="32" height="32" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Network/Graph Logo - 6 interconnected nodes -->
+  <!-- Bottom center node -->
+  <circle cx="60" cy="100" r="8" stroke="#3B82F6" stroke-width="3" fill="none"/>
+  
+  <!-- Middle row nodes -->
+  <circle cx="40" cy="60" r="8" stroke="#3B82F6" stroke-width="3" fill="none"/>
+  <circle cx="80" cy="60" r="8" stroke="#3B82F6" stroke-width="3" fill="none"/>
+  
+  <!-- Top row nodes -->
+  <circle cx="20" cy="20" r="8" stroke="#3B82F6" stroke-width="3" fill="none"/>
+  <circle cx="60" cy="20" r="8" stroke="#3B82F6" stroke-width="3" fill="none"/>
+  <circle cx="100" cy="20" r="8" stroke="#3B82F6" stroke-width="3" fill="none"/>
+  
+  <!-- Connections -->
+  <!-- Bottom to middle -->
+  <line x1="60" y1="92" x2="40" y2="68" stroke="#3B82F6" stroke-width="3"/>
+  <line x1="60" y1="92" x2="80" y2="68" stroke="#3B82F6" stroke-width="3"/>
+  
+  <!-- Middle row connections -->
+  <line x1="40" y1="52" x2="80" y2="52" stroke="#3B82F6" stroke-width="3"/>
+  <line x1="40" y1="52" x2="20" y2="28" stroke="#3B82F6" stroke-width="3"/>
+  <line x1="40" y1="52" x2="60" y2="28" stroke="#3B82F6" stroke-width="3"/>
+  <line x1="80" y1="52" x2="60" y2="28" stroke="#3B82F6" stroke-width="3"/>
+  <line x1="80" y1="52" x2="100" y2="28" stroke="#3B82F6" stroke-width="3"/>
+  
+  <!-- Top row connections -->
+  <line x1="20" y1="12" x2="60" y2="12" stroke="#3B82F6" stroke-width="3"/>
+  <line x1="60" y1="12" x2="100" y2="12" stroke="#3B82F6" stroke-width="3"/>
+</svg>
+

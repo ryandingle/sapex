@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Github, Twitter, Mail } from 'lucide-react'
 
 export function Footer() {
@@ -30,7 +31,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold text-white">Sapex</h3>
+            <div className="flex items-center gap-2">
+              <Image
+                src="/logo-icon.svg"
+                alt="Sapex Logo"
+                width={32}
+                height={32}
+                className="flex-shrink-0"
+              />
+              <h3 className="text-xl font-semibold text-white">Sapex</h3>
+            </div>
             <p className="text-sm text-gray-400 leading-relaxed">
               The most affordable crypto trading platform with 0.08% platform fee. Trade anytime, anywhere.
             </p>

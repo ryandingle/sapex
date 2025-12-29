@@ -6,6 +6,7 @@ import { usePathname, useRouter } from 'next/navigation'
 import { WalletConnect } from '@/components/wallet/WalletConnect'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
+import { Logo } from '@/components/ui/Logo'
 import { Search, Menu, X } from 'lucide-react'
 import { TokenModal } from '@/components/trading/TokenModal'
 import { SUPPORTED_TOKENS, Token } from '@/lib/tokens'
@@ -52,11 +53,7 @@ export function Navigation() {
           </Button>
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <h1 className="text-xl sm:text-2xl font-semibold text-white">
-              Sapex
-            </h1>
-          </Link>
+          <Logo size={32} showText={true} />
           
           {/* Navigation Links - Desktop */}
           <nav className="hidden md:flex items-center gap-1 flex-shrink-0">
